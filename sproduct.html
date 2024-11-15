@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!---------------- Header ------------------ -->
+    <section id="header">
+      <a href="index.html"> <img src="./img/logo.png" alt="logo" class="logo" /> </a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          </li>
+          <a id="closeBtn" href="#"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div class="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <!-- ------------------- Single Product ------------------ -->
+    <section id="prodetails" class="section-p1">
+      <div class="single-pro-images">
+        <img src="img/products/f1.jpg" width="100%" id="mainImg" />
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img
+              src="img/products/f1.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="img/products/f2.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="img/products/f3.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="img/products/f4.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="single-pro-details">
+        <h6>Home / T-Shirt</h6>
+        <h4>Men's Fashion Casual Wear</h4>
+        <h2>$79.00</h2>
+        <select>
+          <option>Select Size</option>
+          <option>Small</option>
+          <option>Large</option>
+          <option>XL</option>
+          <option>XXL</option>
+        </select>
+
+        <input type="number" value="1" />
+        <button class="normal">Add to Cart</button>
+        <h4>Product Details</h4>
+
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          dolores doloremque sequi itaque omnis enim repudiandae at eum earum
+          fugit nam pariatur, maxime ea esse, tempora suscipit repellendus
+          reprehenderit alias?
+        </p>
+      </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Related Products</h2>
+        <p>Summer Collection New Modern Design delivered doorstep</p>
+        <div class="pro-container">
+          <div class="pro" onclick="window.location.href='sproduct.html'">
+            <img src="./img/products/n1.jpg" alt="" />
+            <div class="des">
+              <span>puma</span>
+              <h5>Cartoon Astronaut T-shirt</h5>
+              <div class="start">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down cart"></i></a>
+          </div>
+          <div class="pro" onclick="window.location.href='sproduct.html'">
+            <img src="./img/products/n2.jpg" alt="" />
+            <div class="des">
+              <span>puma</span>
+              <h5>Cartoon Astronaut T-shirt</h5>
+              <div class="start">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down cart"></i></a>
+          </div>
+          <div class="pro" onclick="window.location.href='sproduct.html'">
+            <img src="./img/products/n3.jpg" alt="" />
+            <div class="des">
+              <span>puma</span>
+              <h5>Cartoon Astronaut T-shirt</h5>
+              <div class="start">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down cart"></i></a>
+          </div>
+          <div class="pro" onclick="window.location.href='sproduct.html'">
+            <img src="./img/products/n4.jpg" alt="" />
+            <div class="des">
+              <span>puma</span>
+              <h5>Cartoon Astronaut T-shirt</h5>
+              <div class="start">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down cart"></i></a>
+          </div>
+         
+      </section>
+
+    <!-- ---------------------- Newsletter --------------------- -->
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newsText">
+        <h4>SignUp for Newsletters</h4>
+        <p>
+          Get email updates about our new arrivals and announcements and so
+          <span>discounts</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">SignUp</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="section-p1">
+      <div class="col-1">
+        <img src="./img/logo.png" alt="logo" class="logo" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address: </strong> 678 Miami Beach Florida United States of
+          America
+        </p>
+        <p><strong>Phone: </strong> +91 6360462074</p>
+        <p><strong>Hours: </strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact us</a>
+      </div>
+
+      <div class="col-1">
+        <h4>My Account</h4>
+        <a href="#">Sign up</a>
+        <a href="#">View Cart</a>
+        <a href="#">My wishlist</a>
+        <a href="#">Track My order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col-1 install">
+        <h4>Install our Apps</h4>
+        <p>Available on apple app store and google playstore</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Options</p>
+        <img src="img/pay/pay.png" alt="" class="pay-img" />
+      </div>
+
+      <div class="copyright">
+        <p>copyright &copy; 2024, Mohammed Abbas WH</p>
+      </div>
+    </footer>
+
+    <!-- JavaScript for image gallery -->
+    <script>
+        const mainImg = document.getElementById("mainImg")
+        const imageGallery = document.getElementsByClassName("small-img")
+
+        imageGallery[0].onclick = function(){
+            mainImg.src = imageGallery[0].src
+        }
+        
+        imageGallery[1].onclick = function(){
+            mainImg.src = imageGallery[1].src
+        }
+
+        imageGallery[2].onclick = function(){
+            mainImg.src = imageGallery[2].src
+        }
+
+        imageGallery[3].onclick = function(){
+            mainImg.src = imageGallery[3].src
+        }
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
